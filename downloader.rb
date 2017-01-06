@@ -35,8 +35,9 @@ while (line = file.gets)
           puts url
           download = open(url)
           IO.copy_stream(download, name)
+          counter+=1
         end
-        counter+=1
+
         break
       end
     end
