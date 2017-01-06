@@ -37,7 +37,6 @@ while (line = file.gets)
           IO.copy_stream(download, name)
           counter+=1
         end
-
         break
       end
     end
